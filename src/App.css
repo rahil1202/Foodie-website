@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav {
+  background: linear-gradient(rgba(5, 150, 0, 0.15), rgba(255, 255, 255, 0.6));
+}
+
+.menu li a {
+  position: relative;
+}
+
+.menu li a:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  /* background: linear-gradient(to right, #1AA37A, #9DFFB3); */
+  /* background: rgb(149, 221, 149); */
+  z-index: -1;
+  transition: 0.5s ease-in-out;
+}
+
+.menu li a:hover,
+.menu li a:focus {
+  color: #76b974;
+}
+
+.home::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  /* width: 350px; */
+  height: 100%;
+  background: rgb(241, 241, 241);
+  z-index: -2;
+}
+.home:after {
+  content: "Foodie";
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  font-size: 18vw;
+  z-index: -2;
+  font-weight: 700;
+  color: #000;
+  opacity: 0.03;
+}
+
+.main-scroll {
+  overflow-y: auto;
+  height: calc(100vh - 236px);
+  width: 100%;
+}
+
+.main-scroll-restaurants {
+  overflow-y: auto;
+  height: calc(100vh - 80px);
+  width: 100%;
+}
+
+.cart-scroll {
+  overflow-y: auto;
+  height: calc(100vh);
+  width: 100%;
+}
+
+.about-scroll {
+  overflow-y: auto;
+  height: calc(100vh - 100px);
+}
+
+::-webkit-scrollbar {
+  width: 1px;
+  height: 1px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #b1eeaf;
+  border-radius: 15px;
+}
+
+.active {
+  color: rgb(2, 105, 2);
+  font-weight: 700;
+}
+
+.custom-dropdown {
+  padding: 4px !important;
+  padding-inline: 5px !important;
+}
+
+@media (max-width: 767px) {
+  /* Your mobile-specific CSS styles go here */
+
+  .main-scroll-restaurants {
+    height: calc(100vh - 80px);
+  }
+
+  .main-scroll {
+    height: calc(100vh - 280px);
+  }
+
+  .cart-scroll {
+    height: calc(100vh - 380px);
+    margin-bottom: 20px;
+    overflow-x: hidden;
+  }
+}
