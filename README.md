@@ -6,7 +6,9 @@ Welcome to Foodie, a robust food delivery platform developed with React.js, Tail
 [Live](https://foodie-rahil1202.netlify.app)
 
 <br>
-![image](https://github.com/rahil1202/Foodie-website/assets/104057403/b0488959-a4ce-442a-9021-78ac32c76cc1)
+
+![image](https://github.com/rahil1202/Foodie-website/assets/104057403/10dcf413-12a1-40b3-970b-679de2f94b6f)
+
 
 </br>
 
