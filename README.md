@@ -3,7 +3,7 @@
 Welcome to Foodie, a robust food delivery platform developed with React.js, Tailwind CSS, and various other technologies. Foodie offers a seamless food ordering experience, with access to thousands of restaurants, real-time weather information, and precise geolocation features.
 
 ## Live Demo 🚀
-[Live](https://foodie-rahil1202.netlify.app)
+## [Live](https://foodie-rahil1202.vercel.app/)
 
 <br>
 
