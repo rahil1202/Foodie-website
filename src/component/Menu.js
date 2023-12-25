@@ -124,7 +124,7 @@ const Menu = () => {
           className="font-bold"
           target="_blank"
         >
-          Rakhi Keshri
+          Rahil Vahora
         </a>
       </div>
     </div>
