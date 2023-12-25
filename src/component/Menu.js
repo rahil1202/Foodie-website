@@ -120,7 +120,7 @@ const Menu = () => {
         <BsFillSuitHeartFill className="text-green-700" />
         &nbsp; by&nbsp;
         <a
-          href="https://github.com/rakhikeshri?tab=repositories"
+          href="https://github.com/rahil1202?tab=repositories"
           className="font-bold"
           target="_blank"
         >
